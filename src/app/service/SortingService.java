@@ -2,7 +2,7 @@ package app.service;
 
 import java.util.Arrays;
 
-public class SortingProcessor {
+public class SortingService {
 
     public int[] mergeSort(int[] array) {
 

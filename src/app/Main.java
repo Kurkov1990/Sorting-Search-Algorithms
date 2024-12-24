@@ -1,10 +1,10 @@
 package app;
 
-import app.controller.ArrayController;
+import app.controller.AppController;
 
 public class Main {
 
     public static void main(String[] args) {
-        new ArrayController().runApp();
+        new AppController().runApp();
     }
 }

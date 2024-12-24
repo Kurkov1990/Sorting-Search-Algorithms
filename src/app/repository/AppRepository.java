@@ -1,12 +1,12 @@
-package app.model;
+package app.repository;
 
 import java.util.Random;
 
-public class ArrayModel {
+public class AppRepository {
 
     private int[] array;
 
-    public ArrayModel(int size, int bound) {
+    public AppRepository(int size, int bound) {
         Random random = new Random();
         this.array = new int[size];
         for (int i = 0; i < size; i++) {

@@ -2,7 +2,7 @@ package app.service;
 
 import java.util.Optional;
 
-public class SearchProcessor {
+public class SearchService {
 
     public Optional<Integer> binarySearch(int[] array, int target) {
         int left = 0, right = array.length - 1;
